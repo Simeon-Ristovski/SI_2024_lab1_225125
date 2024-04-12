@@ -1,0 +1,42 @@
+git commit 2f3417df9d128574669a4852922ac019d6d79da8
+Merge: 991a843 337a655
+Author: Simeon-Ristovski <simeon.ristovski@students.finki.ukim.mk>
+Date:   Fri Apr 12 20:34:07 2024 +0200
+
+    Conflict resolution
+
+commit 337a655520bfa47e3ee2f22d3763d7ecb0310f79
+Author: Simeon-Ristovski <simeon.ristovski@students.finki.ukim.mk>
+Date:   Fri Apr 12 20:10:48 2024 +0200
+
+    Call method makeBigStringFrom in main class.
+
+commit 991a843555fd2e7e74876cab1ed0d659f7b25298
+Author: Simeon-Ristovski <simeon.ristovski@students.finki.ukim.mk>
+Date:   Fri Apr 12 20:09:22 2024 +0200
+
+    Call method filterOddLengthStrings in main class.
+
+commit 1f5d9d6f50558c0f949fa4bdb736e62b9386e0b2
+Author: Simeon-Ristovski <simeon.ristovski@students.finki.ukim.mk>
+Date:   Fri Apr 12 20:02:05 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom.
+
+commit 118b6b8279eeb48e8aac418cc6c9d4c3689d36a0
+Author: Simeon-Ristovski <simeon.ristovski@students.finki.ukim.mk>
+Date:   Fri Apr 12 19:55:02 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 2cc300e7a33c5a96c724aef701c3ba511990e572
+Author: Simeon-Ristovski <simeon.ristovski@students.finki.ukim.mk>
+Date:   Fri Apr 12 19:25:50 2024 +0200
+
+    Add starter code
+
+commit e05922f0f3cc46de0b6808f6064b8d442fa62bd1
+Author: Simeon-Ristovski <simeon.ristovski@students.finki.ukim.mk>
+Date:   Fri Apr 12 19:18:49 2024 +0200
+
+    Initial commit

@@ -1,0 +1,28 @@
+2. Со кликање на линкот даден во лабораториската вежба ме однесе во прозорец каде што се бараше да се промени од main во master.
+3. Со притискање на new во секцијата на Repositories се креира нов репозиториум на GitHub.
+4. За правење на локален репозиториум ја искористив командата mkdir и го именував исто како remote репозиториумот.
+5. За поврзвање на двата репозиториуми искористив git remote add origin git@github.com:Simeon-Ristovski/SI_2024_lab1_225125.git
+6. За додавање на README.md ја искористив командата nano README.md го додадов на сцена со git add README.md и го направив комитот git commit -m "Initial commit."
+7. За додавање на трите фајлови при превземање ги ставив во локалниот репозиториум ги додадов на сцена со git add --all и го направив комитот git commit -m "Add starter code".
+8. За синхронизација ја користиме командата git push origin master.
+9. За создавање на нови гранки ја користев командата git branch bug1 и git branch bug2.
+10. За префрлање од една на друга гранка се користи командата git checkout која и понатаму ќе ја споменувам во овај фајл. git checkout bug1.
+11. За поправање на грешката во кодот го искористив IntelliJ IDEA потоа со git add SlLab1_1 го додадов на сцена и потоа со git commit -m "Fix wrong condition in filterOddLengthStrings" го направив бараниот commit.
+12. git checkout bug2.
+13. За поправање на грешката во кодот го искористив IntelliJ IDEA потоа со git add SlLab1_2 го додадов на сцена и потоа со git commit -m "Fix wrong condition in makeBigStringFrom." го направив бараниот commit.
+14. git checkout bug1.
+15. За додавање на кодот го искористив IntelliJ IDEA потоа со git add SlLab1Main го додадов на сцена и потоа со git commit -m "Call method filterOddLengthStrings in main class." го направив бараниот commit.
+16. git checkout bug2.
+17.За додавање на кодот го искористив IntelliJ IDEA потоа со git add SlLab1Main го додадов на сцена и потоа со git commit -m "Call method makeBigStringFrom in main class." го направив бараниот commit.
+18. git push origin bug1 и git push origin bug2.
+19. git checkout master.
+20. За спојување на bug1 кон master ја искористив git merge bug1 командата и не се појави конфликт се изврши спојувањето по fast-forward.
+21. git push origin master.
+22. git checkout bug2.
+23. git rebase master.
+24. git checkout master.
+25. git merge bug2 се појави конфликт и тоа го решив со нов commit во кој се поправи конфликтот и тоа е по recursive метод на спојување на две гранки.
+26. git push origin master.
+27. Веќе се синхронизирани.
+28. Дадодтеката logs.txt ја напрајв со следната команда git log > logs.txt а потоа со git add --all ги ставив на сцена фајлот logs.txt како и 225125.txt со git commit -m "Final commit" го направив последниот commit. 
+29. git push origin master.
